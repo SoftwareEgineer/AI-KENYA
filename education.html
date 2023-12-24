@@ -1,0 +1,3395 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+
+    <script type="text/javascript">
+        document.documentElement.className = 'js';
+    </script>
+
+    <title>AI AA NGO </title>
+    <link rel="icon" href="small.png" type="image/x-icon" />
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script id="diviarea-loader">
+        window.DiviPopupData = window.DiviAreaConfig = {
+            "zIndex": 1000000,
+            "animateSpeed": 400,
+            "triggerClassPrefix": "show-popup-",
+            "idAttrib": "data-popup",
+            "modalIndicatorClass": "is-modal",
+            "blockingIndicatorClass": "is-blocking",
+            "defaultShowCloseButton": true,
+            "withCloseClass": "with-close",
+            "noCloseClass": "no-close",
+            "triggerCloseClass": "close",
+            "singletonClass": "single",
+            "darkModeClass": "dark",
+            "noShadowClass": "no-shadow",
+            "altCloseClass": "close-alt",
+            "popupSelector": ".et_pb_section.popup",
+            "initializeOnEvent": "et_pb_after_init_modules",
+            "popupWrapperClass": "area-outer-wrap",
+            "fullHeightClass": "full-height",
+            "openPopupClass": "da-overlay-visible",
+            "overlayClass": "da-overlay",
+            "exitIndicatorClass": "on-exit",
+            "hoverTriggerClass": "on-hover",
+            "clickTriggerClass": "on-click",
+            "onExitDelay": 2000,
+            "notMobileClass": "not-mobile",
+            "notTabletClass": "not-tablet",
+            "notDesktopClass": "not-desktop",
+            "baseContext": "body",
+            "activePopupClass": "is-open",
+            "closeButtonClass": "da-close",
+            "withLoaderClass": "with-loader",
+            "debug": false,
+            "sys": []
+        };
+        var divimode_loader = function() {
+            "use strict";
+            ! function(t) {
+                t.DiviArea = t.DiviPopup = {
+                    loaded: !1
+                };
+                var n = t.DiviArea,
+                    i = n.Hooks = {},
+                    o = {};
+
+                function r(t, n, i) {
+                    var r, e, c;
+                    if ("string" == typeof t)
+                        if (o[t]) {
+                            if (n)
+                                if ((r = o[t]) && i)
+                                    for (c = r.length; c--;)(e = r[c]).callback === n && e.context === i && (r[c] = !1);
+                                else
+                                    for (c = r.length; c--;) r[c].callback === n && (r[c] = !1)
+                        } else o[t] = []
+                }
+
+                function e(t, n, i, r) {
+                    if ("string" == typeof t) {
+                        var e = {
+                                callback: n,
+                                priority: i,
+                                context: r
+                            },
+                            c = o[t];
+                        c ? (c.push(e), c = function(t) {
+                            var n, i, o, r, e = t.length;
+                            for (r = 1; r < e; r++)
+                                for (n = t[r], i = r; i > 0; i--)(o = t[i - 1]).priority > n.priority && (t[i] = o, t[i - 1] = n);
+                            return t
+                        }(c)) : c = [e], o[t] = c
+                    }
+                }
+
+                function c(t, n, i) {
+                    "string" == typeof n && (n = [n]);
+                    var r, e, c = [];
+                    for (r = 0; r < n.length; r++) Array.prototype.push.apply(c, o[n[r]]);
+                    for (e = 0; e < c.length; e++) {
+                        var a = void 0;
+                        c[e] && "function" == typeof c[e].callback && ("filter" === t ? void 0 !== (a = c[e].callback.apply(c[e].context, i)) && (i[0] = a) : c[e].callback.apply(c[e].context, i))
+                    }
+                    if ("filter" === t) return i[0]
+                }
+                i.silent = function() {
+                    return i
+                }, n.removeFilter = i.removeFilter = function(t, n) {
+                    r(t, n)
+                }, n.removeAction = i.removeAction = function(t, n) {
+                    r(t, n)
+                }, n.applyFilters = i.applyFilters = function(t) {
+                    for (var n = [], i = arguments.length - 1; i-- > 0;) n[i] = arguments[i + 1];
+                    return c("filter", t, n)
+                }, n.doAction = i.doAction = function(t) {
+                    for (var n = [], i = arguments.length - 1; i-- > 0;) n[i] = arguments[i + 1];
+                    c("action", t, n)
+                }, n.addFilter = i.addFilter = function(n, i, o, r) {
+                    e(n, i, parseInt(o || 10, 10), r || t)
+                }, n.addAction = i.addAction = function(n, i, o, r) {
+                    e(n, i, parseInt(o || 10, 10), r || t)
+                }, n.addActionOnce = i.addActionOnce = function(n, i, o, c) {
+                    e(n, i, parseInt(o || 10, 10), c || t), e(n, (function() {
+                        r(n, i)
+                    }), 1 + parseInt(o || 10, 10), c || t)
+                }
+            }(window);
+            return {}
+        }();
+    </script>
+    <style id="et-divi-open-sans-inline-css">
+        /* Original: https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&#038;subset=latin,latin-ext&#038;display=swap */
+
+        /* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWV4exQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4exQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWV4exQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWV4exQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 800;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWV4exQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVc.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVc.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4uaVc.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVc.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 800;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4uaVc.ttf) format('truetype');
+        }
+
+        /* User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 */
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWV4exg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4exg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWV4exg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWV4exg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 800;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWV4exg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVQ.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVQ.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4uaVQ.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVQ.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 800;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4uaVQ.woff) format('woff');
+        }
+
+        /* User Agent: Mozilla/5.0 (Windows NT 6.3; rv:39.0) Gecko/20100101 Firefox/39.0 */
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWV4ewA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4ewA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWV4ewA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWV4ewA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 800;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWV4ewA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVI.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVI.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4uaVI.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVI.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 800;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4uaVI.woff2) format('woff2');
+        }
+    </style>
+    <style id="et-builder-googlefonts-cached-inline">
+        /* Original: https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic|Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic|Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic|Nunito:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;subset=latin,latin-ext&#038;display=swap */
+
+        /* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u-w4BMUTPHjxsIPx-mPCc.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI9w2_FQfo.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHjxsAUi-v.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI5wq_FQfo.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI3wi_FQfo.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHh30AUi-v.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwaPHA.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjxAwWw.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwaPHA.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwaPHA.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiLXAHg6bf.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNi83AHg6bf.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNirXAHg6bf.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNic3cHg6bf.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiSncHg6bf.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiLXcHg6bf.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiBHcHg6bf.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDDshdTo3ig.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDOUhdTo3ig.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTo3ig.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDGUmdTo3ig.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDFwmdTo3ig.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDDsmdTo3ig.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDBImdTo3ig.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWV4exQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4exQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWV4exQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWV4exQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 800;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWV4exQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVc.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVc.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4uaVc.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVc.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 800;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4uaVc.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4WjNDr0fJQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4ejMDr0fJQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4TbMDr0fJQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4WjMDr0fJQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4VrMDr0fJQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4bbLDr0fJQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4Y_LDr0fJQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4ejLDr0fJQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4cHLDr0fJQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvao7CGPrQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtaorCGPrQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVuEorCGPrQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCGPrQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvoorCGPrQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpbCGPrQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pbCGPrQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtapbCGPrQ.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtzpbCGPrQ.ttf) format('truetype');
+        }
+
+        /* User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 */
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u-w4BMUTPHjxsIPx-mPCQ.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI9w2_FQfr.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHjxsAUi-s.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI5wq_FQfr.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI3wi_FQfr.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHh30AUi-s.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwaPHw.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjxAwWA.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwaPHw.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwaPHw.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiLXAHg6bc.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNi83AHg6bc.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNirXAHg6bc.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNic3cHg6bc.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiSncHg6bc.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiLXcHg6bc.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiBHcHg6bc.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDDshdTo3iQ.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDOUhdTo3iQ.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTo3iQ.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDGUmdTo3iQ.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDFwmdTo3iQ.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDDsmdTo3iQ.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDBImdTo3iQ.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWV4exg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4exg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWV4exg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWV4exg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 800;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWV4exg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVQ.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVQ.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4uaVQ.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVQ.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 800;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4uaVQ.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4WjNDr0fJg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4ejMDr0fJg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4TbMDr0fJg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4WjMDr0fJg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4VrMDr0fJg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4bbLDr0fJg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4Y_LDr0fJg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4ejLDr0fJg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4cHLDr0fJg.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvao7CGPrc.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtaorCGPrc.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVuEorCGPrc.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCGPrc.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvoorCGPrc.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpbCGPrc.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pbCGPrc.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtapbCGPrc.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtzpbCGPrc.woff) format('woff');
+        }
+
+        /* User Agent: Mozilla/5.0 (Windows NT 6.3; rv:39.0) Gecko/20100101 Firefox/39.0 */
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u-w4BMUTPHjxsIPx-mPCI.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI9w2_FQft.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHjxsAUi-q.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI5wq_FQft.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI3wi_FQft.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHh30AUi-q.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwaPGQ.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjxAwXg.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwaPGQ.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwaPGQ.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiLXAHg6ba.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNi83AHg6ba.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNirXAHg6ba.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNic3cHg6ba.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiSncHg6ba.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiLXcHg6ba.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: italic;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiBHcHg6ba.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDDshdTo3jw.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDOUhdTo3jw.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTo3jw.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDGUmdTo3jw.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDFwmdTo3jw.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDDsmdTo3jw.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDBImdTo3jw.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWV4ewA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4ewA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWV4ewA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWV4ewA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 800;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWV4ewA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVI.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVI.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4uaVI.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVI.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 800;
+            font-stretch: normal;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4uaVI.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4WjNDr0fIA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4ejMDr0fIA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4TbMDr0fIA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4WjMDr0fIA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4VrMDr0fIA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4bbLDr0fIA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4Y_LDr0fIA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4ejLDr0fIA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4cHLDr0fIA.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvao7CGPrE.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtaorCGPrE.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVuEorCGPrE.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCGPrE.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvoorCGPrE.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpbCGPrE.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pbCGPrE.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtapbCGPrE.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 900;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtzpbCGPrE.woff2) format('woff2');
+        }
+    </style>
+    <meta name='robots' content='max-image-preview:large' />
+    <script type="text/javascript">
+        let jqueryParams = [],
+            jQuery = function(r) {
+                return jqueryParams = [...jqueryParams, r], jQuery
+            },
+            $ = function(r) {
+                return jqueryParams = [...jqueryParams, r], $
+            };
+        window.jQuery = jQuery, window.$ = jQuery;
+        let customHeadScripts = !1;
+        jQuery.fn = jQuery.prototype = {}, $.fn = jQuery.prototype = {}, jQuery.noConflict = function(r) {
+            if (window.jQuery) return jQuery = window.jQuery, $ = window.jQuery, customHeadScripts = !0, jQuery.noConflict
+        }, jQuery.ready = function(r) {
+            jqueryParams = [...jqueryParams, r]
+        }, $.ready = function(r) {
+            jqueryParams = [...jqueryParams, r]
+        }, jQuery.load = function(r) {
+            jqueryParams = [...jqueryParams, r]
+        }, $.load = function(r) {
+            jqueryParams = [...jqueryParams, r]
+        }, jQuery.fn.ready = function(r) {
+            jqueryParams = [...jqueryParams, r]
+        }, $.fn.ready = function(r) {
+            jqueryParams = [...jqueryParams, r]
+        };
+    </script>
+    <link rel='dns-prefetch' href='//secure.gravatar.com' />
+    <link rel='dns-prefetch' href='//stats.wp.com' />
+    <link rel='dns-prefetch' href='//widgets.wp.com' />
+    <link rel='dns-prefetch' href='//jetpack.wordpress.com' />
+    <link rel='dns-prefetch' href='//s0.wp.com' />
+    <link rel='dns-prefetch' href='//public-api.wordpress.com' />
+    
+    <link rel='dns-prefetch' href='//0.gravatar.com' /><link rel='dns-prefetch' href='//1.gravatar.com' /><link rel='dns-prefetch' href='//2.gravatar.com' /><link rel='dns-prefetch' href='//c0.wp.com' /><meta content="Charity for Divi v.1.1" name="generator" /><link rel='stylesheet'  href='https://womenempowerment.org/_static/??-eJy1UdtOwzAM/SGyiDEh9oB44T9QlridWW6KnZb+PW5pUTWuk+Alie1zcmyfPiubIkNknX1tMZL2ZkiVVVvQaeLBw8YSXfUfgc/A2djTcj91EF0q2lROwTCjXSqqQwcpFyDSh4re6YNPkgaHLIQpID2B5IR+EcRofXUgSqSDgA14CGMH6yBLv1CUh9bYYRMw/siW2jpec85HbLEDbYiASTsk1oKbkhcTlEvRMKaoqIZgyvDVDznlmkk1qSiHHb5ZQLop6ftWFzdCcnUkeDzJ+V8Gjq0t/mF08HKuwUdZLunH9xEUscxvPxthxtqjKcjDNLayR5FRU2XZ57jKucVGmMr0QEnKY36d+BuJYNqIDVo1GXIWXvr9r2wYxef3CH0I99e3+5u73W67374CZmVmag=='
+        type='text/css' media='all' />
+    <style id='css-divi-area-inline-css'>
+        .et_pb_section.popup {
+            display: none
+        }
+    </style>
+    <style id='classic-theme-styles-inline-css'>
+        /*! This file is auto-generated */
+
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em
+        }
+
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none
+        }
+    </style>
+    <style id='global-styles-inline-css'>
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        :where(.is-layout-grid) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flow>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-flow>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-flow>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-constrained>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-constrained>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+            max-width: var(--wp--style--global--content-size);
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignwide {
+            max-width: var(--wp--style--global--wide-size);
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        body .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        body .is-layout-flex>* {
+            margin: 0;
+        }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+        body .is-layout-grid>* {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        .wp-block-navigation a:where(:not(.wp-element-button)) {
+            color: inherit;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        .wp-block-pullquote {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <style id='jetpack-global-styles-frontend-style-inline-css'>
+        :root {
+            --font-headings: unset;
+            --font-base: unset;
+            --font-headings-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            --font-base-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        }
+    </style>
+    <script src='https://womenempowerment.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
+    <script type='text/javascript' src='https://womenempowerment.org/_static/??-eJyVzTEOgzAMBdALEaIOQBiqngU1BgxJTB0HxO3JwMJSgWTpD/99eVsUhq9LFqKe8v0S8H6G8jhwJ1B6DOUUi+1qLUbRKwRLrHO1kNt7dC4bYLmxYRgg006IFacg6B9++qdHojme4OPfr9o0pqlM1R6E3Vnx'></script>
+    <script src='https://womenempowerment.org/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef' id='wp-i18n-js'></script>
+    <script id="wp-i18n-js-after" type="text/javascript">
+        wp.i18n.setLocaleData({
+            'text direction\u0004ltr': ['ltr']
+        });
+    </script>
+    <script id='give-js-extra'>
+        var give_global_vars = {
+            "ajaxurl": "https:\/\/womenempowerment.org\/wp-admin\/admin-ajax.php",
+            "checkout_nonce": "9e45b9e6e9",
+            "currency": "USD",
+            "currency_sign": "$",
+            "currency_pos": "before",
+            "thousands_separator": ",",
+            "decimal_separator": ".",
+            "no_gateway": "Please select a payment method.",
+            "bad_minimum": "The minimum custom donation amount for this form is",
+            "bad_maximum": "The maximum custom donation amount for this form is",
+            "general_loading": "Loading...",
+            "purchase_loading": "Please Wait...",
+            "textForOverlayScreen": "<h3>Processing...<\/h3><p>This will only take a second!<\/p>",
+            "number_decimals": "2",
+            "is_test_mode": "1",
+            "give_version": "2.33.1",
+            "magnific_options": {
+                "main_class": "give-modal",
+                "close_on_bg_click": false
+            },
+            "form_translation": {
+                "payment-mode": "Please select payment mode.",
+                "give_first": "Please enter your first name.",
+                "give_last": "Please enter your last name.",
+                "give_email": "Please enter a valid email address.",
+                "give_user_login": "Invalid email address or username.",
+                "give_user_pass": "Enter a password.",
+                "give_user_pass_confirm": "Enter the password confirmation.",
+                "give_agree_to_terms": "You must agree to the terms and conditions."
+            },
+            "confirm_email_sent_message": "Please check your email and click on the link to access your complete donation history.",
+            "ajax_vars": {
+                "ajaxurl": "https:\/\/womenempowerment.org\/wp-admin\/admin-ajax.php",
+                "ajaxNonce": "1731d6cbe5",
+                "loading": "Loading",
+                "select_option": "Please select an option",
+                "default_gateway": "manual",
+                "permalinks": "1",
+                "number_decimals": 2
+            },
+            "cookie_hash": "b018af74b35728b58d8870b74f626cff",
+            "session_nonce_cookie_name": "wp-give_session_reset_nonce_b018af74b35728b58d8870b74f626cff",
+            "session_cookie_name": "wp-give_session_b018af74b35728b58d8870b74f626cff",
+            "delete_session_nonce_cookie": "0"
+        };
+        var giveApiSettings = {
+            "root": "https:\/\/womenempowerment.org\/wp-json\/give-api\/v2\/",
+            "rest_base": "give-api\/v2"
+        };
+    </script>
+    
+    <style>
+        img#wpstats {
+            display: none
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    
+    <style type="text/css">
+        /* If html does not have either class, do not show lazy loaded images. */
+
+        html:not( .jetpack-lazy-images-js-enabled):not( .js) .jetpack-lazy-image {
+            display: none;
+        }
+    </style>
+    <script>
+        document.documentElement.classList.add(
+            'jetpack-lazy-images-js-enabled'
+        );
+    </script>
+
+    
+    <style id="et-critical-inline-css">
+        #et_search_icon:hover,
+        .mobile_menu_bar:before,
+        .mobile_menu_bar:after,
+        .et_toggle_slide_menu:after,
+        .et-social-icon a:hover,
+        .et_pb_sum,
+        .et_pb_pricing li a,
+        .et_pb_pricing_table_button,
+        .et_overlay:before,
+        .entry-summary p.price ins,
+        .et_pb_member_social_links a:hover,
+        .et_pb_widget li a:hover,
+        .et_pb_filterable_portfolio .et_pb_portfolio_filters li a.active,
+        .et_pb_filterable_portfolio .et_pb_portofolio_pagination ul li a.active,
+        .et_pb_gallery .et_pb_gallery_pagination ul li a.active,
+        .wp-pagenavi span.current,
+        .wp-pagenavi a:hover,
+        .nav-single a,
+        .tagged_as a,
+        .posted_in a {
+            color: #ff914d
+        }
+
+        .et_pb_contact_submit,
+        .et_password_protected_form .et_submit_button,
+        .et_pb_bg_layout_light .et_pb_newsletter_button,
+        .comment-reply-link,
+        .form-submit .et_pb_button,
+        .et_pb_bg_layout_light .et_pb_promo_button,
+        .et_pb_bg_layout_light .et_pb_more_button,
+        .et_pb_contact p input[type="checkbox"]:checked+label i:before,
+        .et_pb_bg_layout_light.et_pb_module.et_pb_button {
+            color: #ff914d
+        }
+
+        .footer-widget h4 {
+            color: #ff914d
+        }
+
+        .et-search-form,
+        .nav li ul,
+        .et_mobile_menu,
+        .footer-widget li:before,
+        .et_pb_pricing li:before,
+        blockquote {
+            border-color: #ff914d
+        }
+
+        .et_pb_counter_amount,
+        .et_pb_featured_table .et_pb_pricing_heading,
+        .et_quote_content,
+        .et_link_content,
+        .et_audio_content,
+        .et_pb_post_slider.et_pb_bg_layout_dark,
+        .et_slide_in_menu_container,
+        .et_pb_contact p input[type="radio"]:checked+label i:before {
+            background-color: #ff914d
+        }
+
+        a {
+            color: #ff914d
+        }
+
+        .nav li ul {
+            border-color: #f19820
+        }
+
+        #top-header,
+        #et-secondary-nav li ul {
+            background-color: #ff914d
+        }
+
+        #top-header,
+        #top-header a,
+        #et-secondary-nav li li a,
+        #top-header .et-social-icon a:before {
+            font-size: 14px
+        }
+
+        #top-menu li.current-menu-ancestor>a,
+        #top-menu li.current-menu-item>a,
+        #top-menu li.current_page_item>a {
+            color: #f19820
+        }
+
+        #main-footer .footer-widget h4,
+        #main-footer .widget_block h1,
+        #main-footer .widget_block h2,
+        #main-footer .widget_block h3,
+        #main-footer .widget_block h4,
+        #main-footer .widget_block h5,
+        #main-footer .widget_block h6 {
+            color: #ff914d
+        }
+
+        .footer-widget li:before {
+            border-color: #ff914d
+        }
+
+        .footer-widget .et_pb_widget div,
+        .footer-widget .et_pb_widget ul,
+        .footer-widget .et_pb_widget ol,
+        .footer-widget .et_pb_widget label {
+            line-height: 1.4em
+        }
+
+        #footer-widgets .footer-widget li:before {
+            top: 6.8px
+        }
+
+        #footer-info,
+        #footer-info a {
+            color: #848484
+        }
+
+        body .et_pb_button {
+            background-color: #ff914d
+        }
+
+        body.et_pb_button_helper_class .et_pb_button,
+        body.et_pb_button_helper_class .et_pb_module.et_pb_button {}
+
+        @media only screen and (min-width:981px) {
+            #logo {
+                max-height: 40%
+            }
+            .et_pb_svg_logo #logo {
+                height: 40%
+            }
+            .et_header_style_centered.et_hide_primary_logo #main-header:not(.et-fixed-header) .logo_container,
+            .et_header_style_centered.et_hide_fixed_logo #main-header.et-fixed-header .logo_container {
+                height: 11.88px
+            }
+            .et-fixed-header#top-header,
+            .et-fixed-header#top-header #et-secondary-nav li ul {
+                background-color: #ff914d
+            }
+            .et-fixed-header #top-menu li.current-menu-ancestor>a,
+            .et-fixed-header #top-menu li.current-menu-item>a,
+            .et-fixed-header #top-menu li.current_page_item>a {
+                color: #f19820 !important
+            }
+        }
+
+        @media only screen and (min-width:1350px) {
+            .et_pb_row {
+                padding: 27px 0
+            }
+            .et_pb_section {
+                padding: 54px 0
+            }
+            .single.et_pb_pagebuilder_layout.et_full_width_page .et_post_meta_wrapper {
+                padding-top: 81px
+            }
+            .et_pb_fullwidth_section {
+                padding: 0
+            }
+        }
+
+        #et_search_icon:hover,
+        .mobile_menu_bar:before,
+        .mobile_menu_bar:after,
+        .et_toggle_slide_menu:after,
+        .et-social-icon a:hover,
+        .et_pb_sum,
+        .et_pb_pricing li a,
+        .et_pb_pricing_table_button,
+        .et_overlay:before,
+        .entry-summary p.price ins,
+        .et_pb_member_social_links a:hover,
+        .et_pb_widget li a:hover,
+        .et_pb_filterable_portfolio .et_pb_portfolio_filters li a.active,
+        .et_pb_filterable_portfolio .et_pb_portofolio_pagination ul li a.active,
+        .et_pb_gallery .et_pb_gallery_pagination ul li a.active,
+        .wp-pagenavi span.current,
+        .wp-pagenavi a:hover,
+        .nav-single a,
+        .tagged_as a,
+        .posted_in a {
+            color: #ff914d
+        }
+
+        .et_pb_contact_submit,
+        .et_password_protected_form .et_submit_button,
+        .et_pb_bg_layout_light .et_pb_newsletter_button,
+        .comment-reply-link,
+        .form-submit .et_pb_button,
+        .et_pb_bg_layout_light .et_pb_promo_button,
+        .et_pb_bg_layout_light .et_pb_more_button,
+        .et_pb_contact p input[type="checkbox"]:checked+label i:before,
+        .et_pb_bg_layout_light.et_pb_module.et_pb_button {
+            color: #ff914d
+        }
+
+        .footer-widget h4 {
+            color: #ff914d
+        }
+
+        .et-search-form,
+        .nav li ul,
+        .et_mobile_menu,
+        .footer-widget li:before,
+        .et_pb_pricing li:before,
+        blockquote {
+            border-color: #ff914d
+        }
+
+        .et_pb_counter_amount,
+        .et_pb_featured_table .et_pb_pricing_heading,
+        .et_quote_content,
+        .et_link_content,
+        .et_audio_content,
+        .et_pb_post_slider.et_pb_bg_layout_dark,
+        .et_slide_in_menu_container,
+        .et_pb_contact p input[type="radio"]:checked+label i:before {
+            background-color: #ff914d
+        }
+
+        a {
+            color: #ff914d
+        }
+
+        .nav li ul {
+            border-color: #f19820
+        }
+
+        #top-header,
+        #et-secondary-nav li ul {
+            background-color: #ff914d
+        }
+
+        #top-header,
+        #top-header a,
+        #et-secondary-nav li li a,
+        #top-header .et-social-icon a:before {
+            font-size: 14px
+        }
+
+        #top-menu li.current-menu-ancestor>a,
+        #top-menu li.current-menu-item>a,
+        #top-menu li.current_page_item>a {
+            color: #f19820
+        }
+
+        #main-footer .footer-widget h4,
+        #main-footer .widget_block h1,
+        #main-footer .widget_block h2,
+        #main-footer .widget_block h3,
+        #main-footer .widget_block h4,
+        #main-footer .widget_block h5,
+        #main-footer .widget_block h6 {
+            color: #ff914d
+        }
+
+        .footer-widget li:before {
+            border-color: #ff914d
+        }
+
+        .footer-widget .et_pb_widget div,
+        .footer-widget .et_pb_widget ul,
+        .footer-widget .et_pb_widget ol,
+        .footer-widget .et_pb_widget label {
+            line-height: 1.4em
+        }
+
+        #footer-widgets .footer-widget li:before {
+            top: 6.8px
+        }
+
+        #footer-info,
+        #footer-info a {
+            color: #848484
+        }
+
+        body .et_pb_button {
+            background-color: #ff914d
+        }
+
+        body.et_pb_button_helper_class .et_pb_button,
+        body.et_pb_button_helper_class .et_pb_module.et_pb_button {}
+
+        @media only screen and (min-width:981px) {
+            #logo {
+                max-height: 40%
+            }
+            .et_pb_svg_logo #logo {
+                height: 40%
+            }
+            .et_header_style_centered.et_hide_primary_logo #main-header:not(.et-fixed-header) .logo_container,
+            .et_header_style_centered.et_hide_fixed_logo #main-header.et-fixed-header .logo_container {
+                height: 11.88px
+            }
+            .et-fixed-header#top-header,
+            .et-fixed-header#top-header #et-secondary-nav li ul {
+                background-color: #ff914d
+            }
+            .et-fixed-header #top-menu li.current-menu-ancestor>a,
+            .et-fixed-header #top-menu li.current-menu-item>a,
+            .et-fixed-header #top-menu li.current_page_item>a {
+                color: #f19820 !important
+            }
+        }
+
+        @media only screen and (min-width:1350px) {
+            .et_pb_row {
+                padding: 27px 0
+            }
+            .et_pb_section {
+                padding: 54px 0
+            }
+            .single.et_pb_pagebuilder_layout.et_full_width_page .et_post_meta_wrapper {
+                padding-top: 81px
+            }
+            .et_pb_fullwidth_section {
+                padding: 0
+            }
+        }
+
+        .menu_cta {
+            background-color: #fea501;
+            color: #fff;
+            padding: 0 !important;
+            border-radius: 8px
+        }
+
+        .menu_cta a {
+            color: #fff !important;
+            padding: 15px 15px 15px 15px !important
+        }
+
+        @media (min-width:980px) {
+            .menu_cta a:before {
+                content: '\e089';
+                color: #fff;
+                font-family: 'ETmodules';
+                font-size: 16px;
+                line-height: 1;
+                position: absolute;
+                left: 12px
+            }
+            .menu_cta a {
+                padding: 15px 15px 15px 35px !important
+            }
+        }
+    </style>
+    
+    <link rel="stylesheet" href="education.css">
+    
+    <!-- Your Google Analytics Plugin is missing the tracking ID -->
+</head>
+
+<body class="home page-template-default page page-id-101171 give-test-mode give-page give-divi tribe-no-js et_bloom et_pb_button_helper_class et_fixed_nav et_show_nav et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns5 et_cover_background et_pb_gutter windows et_pb_gutters3 et_pb_pagebuilder_layout et_no_sidebar et_divi_theme et-db">
+
+    <div id="page-container">
+
+
+
+        <header id="main-header" data-height-onload="66">
+            <div class="container clearfix et_menu_container">
+                <div class="logo_container">
+                    <span class="logo_helper"></span>
+                    <a href="\\">
+						<img src="AA.png" alt="AI AA NGO" id="logo" data-height-percentage="40" />
+					</a>
+                </div>
+                <div id="et-top-navigation" data-height="66" data-fixed-height="40">
+                    <nav id="top-menu-nav">
+                        <ul id="top-menu" class="nav">
+                            <li id="menu-item-100269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100269"><a href="index.html">Home</a></li>
+                                                        
+                           
+                            <li id="menu-item-100161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100269"><a href="impact.html">Our Impact</a>
+                                
+                            </li>
+                            
+                            <li id="menu-item-100269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100269"><a href="education.html">Educational Resources</a></li>
+                            <li id="menu-item-100269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100269"><a href="getinvolved.html">Get Involved</a></li>
+                            <li id="menu-item-100269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100269"><a href="contact.html">Contact</a></li>
+                            
+                            
+                            
+                            <li id="menu-item-100269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100269">
+                                <a href="https://api.whatsapp.com/send/?phone=254710791596" target="_blank">Whatsapp<img src="what.webp" id="octocat" alt="github's octocat logo" /></a>
+                                
+                            </li>
+                            
+                           
+                           
+                        </ul>
+                    </nav>
+
+
+
+                     
+
+                    <div id="et_mobile_nav_menu">
+                        <div class="mobile_nav closed">
+                            <span class="select_page">Select Page</span>
+                            <span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- #et-top-navigation -->
+            </div>
+            <!-- .container -->
+            <div class="et_search_outer">
+                <div class="container et_search_form_container">
+                    <form role="search" method="get" class="et-search-form" action="//">
+                        <input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" /> </form>
+                    <span class="et_close_search_field"></span>
+                </div>
+            </div>
+        </header>
+        <!-- #main-header -->
+        <div id="et-main-area">
+
+            <div id="main-content">
+
+
+
+                <article id="post-101171" class="post-101171 page type-page status-publish hentry">
+
+                    <div class="entry-content">
+                        <div id="et-boc" class="et-boc">    
+                            <div class="et-l et-l--post">
+                                <div class="et_builder_inner_content et_pb_gutters3">
+                                    <div class="et_pb_section et_pb_section_1 et_section_regular">
+                                        <div class="et_pb_row et_pb_row_0">
+                                            <div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                <div class="et_pb_module et_pb_slider et_pb_slider_0 et_pb_slider_fullwidth_off et_slider_auto et_slider_speed_9000">
+                                                    <div class="et_pb_slides">
+                                                        <div class="et_pb_slide et_pb_slide_0 et_pb_bg_layout_dark et_pb_media_alignment_center et_pb_slider_with_text_overlay et-pb-active-slide" data-slide-id="et_pb_slide_0">
+                                                            <div class="et_pb_container clearfix">
+                                                                <div class="et_pb_slider_container_inner">
+
+                                                                    <div class="et_pb_slide_description">
+                                                                        <div class="et_pb_text_overlay_wrapper">
+                                                                            <h2 class="et_pb_slide_title" style="font-family: 'Times New Roman', Times, serif;"><a href="//">AI<br> AA <br>NGO</a></h2>
+                                                                            <div class="et_pb_slide_content">
+                                                                                
+                                                                            </div>
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="et_pb_slide et_pb_slide_1 et_pb_bg_layout_dark et_pb_slide_with_image et_pb_media_alignment_center et_pb_slider_with_text_overlay" data-slide-id="et_pb_slide_1">
+                                                            <div class="et_pb_slide_description">    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="et_pb_section et_pb_section_2 et_section_regular">
+                                    </div>
+                                    <div class="et_pb_section et_pb_section_3 et_pb_with_background et_section_regular">
+                                    </div>
+                                    <div class="et_pb_section et_pb_section_4 et_pb_fullwidth_section et_section_regular">
+                                        <div class="et_pb_module et_pb_fullwidth_image et_pb_fullwidth_image_0">
+                                            <img src="1.png"/>
+                                        </div>
+                                    </div>
+                                    
+                                        <div class="et_pb_row et_pb_row_0">
+                                            <div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                <div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
+                                                    <div class="et_pb_text_inner">
+                                                        <h1>About Us</h1>
+                                                    </div>
+                                        </div>
+                                    </div>
+                                   
+                                        <div class="et_pb_row et_pb_row_1">
+                                            <div class="et_pb_column et_pb_column_4_4 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child">
+
+
+                                                <div class="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_left et_pb_bg_layout_light">
+
+
+                                                    <div class="et_pb_text_inner">
+                                                        <h2 style="text-align: center;">Understanding AI in Agriculture<br /></h2><a id="Our-Objectives"></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="et_pb_row et_pb_row_2">
+                                            <div class="et_pb_column et_pb_column_1_2 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough">
+
+                                                <div class="et_pb_module et_pb_image et_pb_image_0"><a href="https://help.synnefa.io/articles/opportunities-8-digital-and-tech-transformation-in-kenya-agriculture">
+
+                                                    <span class="et_pb_image_wrap "><img decoding="async" fetchpriority="high" width="1080" height="1080" src="info.png" ></span></a>
+                                                </div><br><h2 style="font-weight: bold; text-align: center;">Click on the Educational Videos Below to Learn More<br /></h2><br>
+
+                                                
+
+                                            </div>
+                                            <div class="et_pb_column et_pb_column_1_2 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                <div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
+                                                    <div class="et_pb_text_inner">
+                                                        <p><span style="font-weight: 400;">To enhance agricultural productivity and sustainability in Kenya  we need to deploying artificial intelligence technologies that optimize farming practices, improve yield forecasts, and increase market accessibility for smallholder farmers.<br><p style="font-weight: bold;">To learn more about AI Technologies click on the image</p></div><br><br>
+
+                                                           
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="et_pb_column et_pb_column_1_2 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough">
+
+                                                <div class="et_pb_module et_pb_image et_pb_image_0"><a href="https://www.youtube.com/watch?v=nsnpEmr1q_k&pp=ygURYWkgaW4gYWdyaWN1bHR1cmU%3D">
+
+                                                    <span class="et_pb_image_wrap "><img decoding="async" fetchpriority="high" width="1080" height="1080" src="1a.png" ></span></a>
+                                                </div><br><br>
+
+                                                
+
+                                            </div>
+                                            <div class="et_pb_column et_pb_column_1_2 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                <div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
+                                                    <div class="et_pb_text_inner">
+                                                        <p><span style="font-weight: 400;">3 Applications of AI in Agriculture.</div><br><br>
+
+                                                           
+                                                </div>
+                                            </div>
+
+                                            <div class="et_pb_column et_pb_column_1_2 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough">
+
+                                                <div class="et_pb_module et_pb_image et_pb_image_0"><a href="https://www.youtube.com/watch?v=PXJ12s0KXGw&t=3s&pp=ygVWQXBwbGljYXRpb25zIG9mIEFydGlmaWNpYWwgSW50ZWxsaWdlbmNlIChBSSkgYW5kIE1hY2hpbmUgTGVhcm5pbmcgKE1MKSBpbiBBZ3JpY3VsdHVyZS4%3D">
+
+                                                    <span class="et_pb_image_wrap "><img decoding="async" fetchpriority="high" width="1080" height="1080" src="2a.png" ></span></a>
+                                                </div><br><br>
+
+                                                
+
+                                            </div>
+                                            <div class="et_pb_column et_pb_column_1_2 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                <div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
+                                                    <div class="et_pb_text_inner">
+                                                        <p><span style="font-weight: 400;">Applications of Artificial Intelligence (AI) and Machine Learning (ML) in Agriculture.</div><br><br>
+
+                                                           
+                                                </div>
+                                            </div>
+
+                                            <div class="et_pb_column et_pb_column_1_2 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough">
+
+                                                <div class="et_pb_module et_pb_image et_pb_image_0"><a href="https://youtu.be/KpZMEU9wIb8">
+
+                                                    <span class="et_pb_image_wrap "><img decoding="async" fetchpriority="high" width="1080" height="1080" src="3a.png" ></span></a>
+                                                </div><br><br>
+
+                                                
+
+                                            </div>
+                                            <div class="et_pb_column et_pb_column_1_2 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                <div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
+                                                    <div class="et_pb_text_inner">
+                                                        <p><span style="font-weight: 400;">5 Uses of AI in Agriculture! - 5 Mins 5 Ideas.</div><br><br>
+
+                                                           
+                                                </div>
+                                            </div>
+
+                                            <div class="et_pb_column et_pb_column_1_2 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough">
+
+                                                <div class="et_pb_module et_pb_image et_pb_image_0"><a href="https://www.youtube.com/watch?v=Tl1YkbdcEgU&t=1s&pp=ygUzQXBwbGljYXRpb25zIG9mIFJlbW90ZSBTZW5zaW5nIGluIFByZWNpc2lvbiBGYXJtaW5n">
+
+                                                    <span class="et_pb_image_wrap "><img decoding="async" fetchpriority="high" width="1080" height="1080" src="4a.png" ></span></a>
+                                                </div>
+                                                
+
+                                            </div>
+                                            <div class="et_pb_column et_pb_column_1_2 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                <div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
+                                                    <div class="et_pb_text_inner">
+                                                        <p><span style="font-weight: 400;">Applications of Remote Sensing in Precision Farming</div><br>
+
+                                                           
+                                                </div>
+                                            </div>
+
+                                            
+
+
+
+
+
+                      
+                                    
+                                               
+                                                </div>
+
+                                                <div class="et_pb_row et_pb_row_2">
+                                                    <div class="et_pb_column et_pb_column_1_2 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough">
+        
+                                                        <div class="et_pb_module et_pb_image et_pb_image_0"><a href="https://www.youtube.com/watch?v=PXJ12s0KXGw&t=3s&pp=ygVWQXBwbGljYXRpb25zIG9mIEFydGlmaWNpYWwgSW50ZWxsaWdlbmNlIChBSSkgYW5kIE1hY2hpbmUgTGVhcm5pbmcgKE1MKSBpbiBBZ3JpY3VsdHVyZS4%3D">
+        
+                                                            <span class="et_pb_image_wrap "><img decoding="async" fetchpriority="high" width="1080" height="1080" src="5b.png" ></span></a>
+                                                    </div><br><br><br><br>
+                                                </div>
+                                                    <div class="et_pb_column et_pb_column_1_2 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                        <div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
+                                                            <div class="et_pb_text_inner">
+                                                                <p><span style="font-weight: 400;">Applications of Artificial Intelligence (AI) and Machine Learning (ML) in Agriculture.</div><br><br><br><br>
+        
+                                                                   
+                                                </div>
+                           <br><br><br><br><h2 style="font-weight: bold; text-align: center;">Case Studies and Success Stories<br /></h2><a id="Our-Objectives"></a><br><br><br><br>
+
+                                                </div>
+
+
+                                                
+                                                <div class="et_pb_column et_pb_column_1_2 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough">
+
+                                                    <div class="et_pb_module et_pb_image et_pb_image_0"><a href="3.mp4">
+    
+                                                        <span class="et_pb_image_wrap "><img decoding="async" fetchpriority="high" width="1080" height="1080" src="sun.jpg" ></span></a>
+                                                    </div><br><br>
+    
+                                                    
+    
+                                                </div>
+                                                <div class="et_pb_column et_pb_column_1_2 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                    <div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
+                                                        <div class="et_pb_text_inner">
+                                                            <p><span style="font-weight: 400;">SunCulture Solar: SunCulture Solar is a company based in Kenya that is using AI to design and manufacture affordable, easy-to-install and use solar-powered water pumps for small-scale farmers. SunCulture Solar’s goal is to reduce the cost and labor associated with pump-dependent irrigation practices, and to improve efficiency and productivity for Kenya’s small-scale farmers.</div><br><br>
+    
+                                                               
+                                                    </div>
+                                                </div>
+                                                
+
+                                                <div class="et_pb_column et_pb_column_1_2 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough">
+
+                                                    <div class="et_pb_module et_pb_image et_pb_image_0"><a href="https://www.gro-intelligence.com/contact">
+    
+                                                        <span class="et_pb_image_wrap "><img decoding="async" fetchpriority="high" width="1080" height="1080" src="geo.png" ></span></a>
+                                                    </div><br><br>
+    
+                                                    
+    
+                                                </div>
+                                                <div class="et_pb_column et_pb_column_1_2 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                    <div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
+                                                        <div class="et_pb_text_inner">
+                                                            <p><span style="font-weight: 400;">Gro Intelligence: Gro Intelligence is a data-driven tech company focused on agriculture that provides farmers with real-time, personalized, data-driven advice on how to optimize their agricultural performance. Its AI-backed platform allows farmers to use data points such as temperature, soil moisture, disease and pest risk, soil fertility, and weather models to make informed cropping decisions.
+                                                            </div><br><br>
+    
+                                                               
+                                                    </div>
+                                                </div>
+
+
+
+
+                                            </div>    
+
+                                            
+
+
+
+
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <footer id="main-footer">
+
+                <div class="container">
+                    <div id="footer-widgets" class="clearfix">
+                        <div class="footer-widget">
+                            <div id="custom_html-2" class="widget_text fwidget et_pb_widget widget_custom_html">
+                                <h4 class="title" >Follow Us On</h4><a id="contacts"></a>
+                                <div class="textwidget custom-html-widget">
+                                    
+                                    <ul class="footer-icon footer-left-pad">
+                                        <li><a href="\\"><img src="facebook.png"; img width="30px"> </a>Facebook</li>
+                                        <li><a href="\\"><img src="instagram.jpeg"; img width="30px"> </a>Instagram</li>
+                                        <li><a href="\\"><img src="twitter.jpeg"; img width="30px"> </a>Twitter</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-widget">
+                            <div id="custom_html-3" class="widget_text fwidget et_pb_widget widget_custom_html">
+                                <h4 class="title">Important Links</h4>
+                                <div class="textwidget custom-html-widget">
+                                    <div class="footer-links-col">
+                                        <div class="distab links-bottom">
+                                            <div class="distab-cell-top">
+                                                <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>
+				</a>
+                                            </div>
+                                            <div class="text-left left-pad">
+                                                <p class="text-left"><a href="#">Home</a></p>
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                        <div class="distab links-bottom">
+                                            <div class="text-left distab-cell-top">
+                                                <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="text-left distab-cell-middle left-pad">
+                                                <p class="text-left"><a href="#ABOUT-US">About Us</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="distab links-bottom">
+                                            <div class="text-left distab-cell-top">
+                                                <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="text-left distab-cell-middle left-pad">
+                                                <p class="text-left"><a href="#Our-Objectives">Our Objectives</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="distab links-bottom">
+                                            <div class="text-left distab-cell-top">
+                                             
+				</a>
+                                            </div>
+                                            <div class="text-left distab-cell-middle left-pad">
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="distab">
+                                            <div class="text-left distab-cell-top">
+                                                
+				</a>
+                                            </div>
+                                            <div class="text-left distab-cell-middle left-pad">
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-widget">
+                            <div id="custom_html-4" class="widget_text fwidget et_pb_widget widget_custom_html">
+                                <h4 class="title">Contact Us</h4>
+                                <div class="textwidget custom-html-widget">
+
+                                    <div class="distab footer-contact">
+                                        <div class="distab-cell-top">
+                                            <img src="phone.png">
+                                        </div>
+                                        <div class="distab-cell-middle">
+                                            <p class="text-left"><a href="tel: +254710791596"> +254710791596</a></p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="distab footer-contact">
+                                        <div class="distab-cell-top">
+                                            <img src="what.webp">
+                                        </div>
+                                        <div class="distab-cell-middle">
+                                            <p class="text-left"><a href="https://api.whatsapp.com/send/?phone=254710791596" target="_blank"> Whatsapp</a></p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="distab footer-contact-bottom">
+                                        </p>
+                                    </div>
+                                    <div class="distab footer-contact-bottom">
+                                        <div class="distab-cell-top">
+                                            <img src="mail.png">
+                                        </div>
+                                        <div class="distab-cell-middle">
+                                            <p class="text-left word-break"><a href="mailto:@gmail.com">Email Us</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                
+                    </div>
+                </div>
+
+                <div id="footer-bottom">
+                    
+                    <div class="container clearfix">
+                        © 2023 All Rights Reserved. AI AA NGO
+                    </div>
+                    <!-- .container -->
+                </div>
+            </footer>
+            <!-- #main-footer -->
+        </div>
+        <!-- #et-main-area -->
+
+
+    </div>
+    <!-- #page-container -->
+
+    <!--  -->
+    <style>
+        .sd-social-icon .sd-content ul li a.sd-button>span {
+            margin-left: 0;
+        }
+    </style>
+    <script defer id="bilmur" data-provider="wordpress.com" data-service="atomic" src="https://s0.wp.com/wp-content/js/bilmur.min.js?m=202337"></script>
+    <script>
+        (function(body) {
+            'use strict';
+            body.className = body.className.replace(/\btribe-no-js\b/, 'tribe-js');
+        })(document.body);
+    </script>
+    <script type="text/javascript">
+        var et_animation_data = [{
+            "class": "et_pb_fullwidth_header_0",
+            "style": "fade",
+            "repeat": "once",
+            "duration": "1000ms",
+            "delay": "0ms",
+            "intensity": "50%",
+            "starting_opacity": "0%",
+            "speed_curve": "ease-in-out"
+        }, {
+            "class": "et_pb_fullwidth_header_1",
+            "style": "fade",
+            "repeat": "once",
+            "duration": "1000ms",
+            "delay": "0ms",
+            "intensity": "50%",
+            "starting_opacity": "0%",
+            "speed_curve": "ease-in-out"
+        }, {
+            "class": "et_pb_signup_0",
+            "style": "foldBottom",
+            "repeat": "once",
+            "duration": "1000ms",
+            "delay": "0ms",
+            "intensity": "20%",
+            "starting_opacity": "100%",
+            "speed_curve": "ease-in-out"
+        }];
+    </script>
+    <script>
+        /* <![CDATA[ */
+        var tribe_l10n_datatables = {
+            "aria": {
+                "sort_ascending": ": activate to sort column ascending",
+                "sort_descending": ": activate to sort column descending"
+            },
+            "length_menu": "Show _MENU_ entries",
+            "empty_table": "No data available in table",
+            "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+            "info_empty": "Showing 0 to 0 of 0 entries",
+            "info_filtered": "(filtered from _MAX_ total entries)",
+            "zero_records": "No matching records found",
+            "search": "Search:",
+            "all_selected_text": "All items on this page were selected. ",
+            "select_all_link": "Select all pages",
+            "clear_selection": "Clear Selection.",
+            "pagination": {
+                "all": "All",
+                "next": "Next",
+                "previous": "Previous"
+            },
+            "select": {
+                "rows": {
+                    "0": "",
+                    "_": ": Selected %d rows",
+                    "1": ": Selected 1 row"
+                }
+            },
+            "datepicker": {
+                "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+                "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"],
+                "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                "monthNamesShort": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                "monthNamesMin": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                "nextText": "Next",
+                "prevText": "Prev",
+                "currentText": "Today",
+                "closeText": "Done",
+                "today": "Today",
+                "clear": "Clear"
+            }
+        }; /* ]]> */
+    </script>
+    <div id="jp-carousel-loading-overlay">
+        <div id="jp-carousel-loading-wrapper">
+            <span id="jp-carousel-library-loading">&nbsp;</span>
+        </div>
+    </div>
+    <div class="jp-carousel-overlay" style="display: none;">
+
+        <div class="jp-carousel-container">
+            <!-- The Carousel Swiper -->
+            <div class="jp-carousel-wrap swiper-container jp-carousel-swiper-container jp-carousel-transitions" itemscope itemtype="https://schema.org/ImageGallery">
+                <div class="jp-carousel swiper-wrapper"></div>
+                <div class="jp-swiper-button-prev swiper-button-prev">
+                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskPrev" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="9" height="12">
+							<path d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskPrev)">
+							<rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+                </div>
+                <div class="jp-swiper-button-next swiper-button-next">
+                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskNext" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="12">
+							<path d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskNext)">
+							<rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+                </div>
+            </div>
+            <!-- The main close buton -->
+            <div class="jp-carousel-close-hint">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<mask id="maskClose" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="15" height="14">
+						<path d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z" fill="white"/>
+					</mask>
+					<g mask="url(#maskClose)">
+						<rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"/>
+					</g>
+				</svg>
+            </div>
+            <!-- Image info, comments and meta -->
+            <div class="jp-carousel-info">
+                <div class="jp-carousel-info-footer">
+                    <div class="jp-carousel-pagination-container">
+                        <div class="jp-swiper-pagination swiper-pagination"></div>
+                        <div class="jp-carousel-pagination"></div>
+                    </div>
+                    <div class="jp-carousel-photo-title-container">
+                        <h2 class="jp-carousel-photo-caption"></h2>
+                    </div>
+                    <div class="jp-carousel-photo-icons-container">
+                        <a href="#" class="jp-carousel-icon-btn jp-carousel-icon-info" aria-label="Toggle photo metadata visibility">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskInfo" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7537 2C7.26076 2 2.80273 6.48 2.80273 12C2.80273 17.52 7.26076 22 12.7537 22C18.2466 22 22.7046 17.52 22.7046 12C22.7046 6.48 18.2466 2 12.7537 2ZM11.7586 7V9H13.7488V7H11.7586ZM11.7586 11V17H13.7488V11H11.7586ZM4.79292 12C4.79292 16.41 8.36531 20 12.7537 20C17.142 20 20.7144 16.41 20.7144 12C20.7144 7.59 17.142 4 12.7537 4C8.36531 4 4.79292 7.59 4.79292 12Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskInfo)">
+										<rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+							</span>
+						</a>
+                        <a href="#" class="jp-carousel-icon-btn jp-carousel-icon-comments" aria-label="Toggle photo comments visibility">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskComments" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M4.3271 2H20.2486C21.3432 2 22.2388 2.9 22.2388 4V16C22.2388 17.1 21.3432 18 20.2486 18H6.31729L2.33691 22V4C2.33691 2.9 3.2325 2 4.3271 2ZM6.31729 16H20.2486V4H4.3271V18L6.31729 16Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskComments)">
+										<rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+
+								<span class="jp-carousel-has-comments-indicator" aria-label="This image has comments."></span>
+							</span>
+						</a>
+                    </div>
+                </div>
+                <div class="jp-carousel-info-extra">
+                    <div class="jp-carousel-info-content-wrapper">
+                        <div class="jp-carousel-photo-title-container">
+                            <h2 class="jp-carousel-photo-title"></h2>
+                        </div>
+                        <div class="jp-carousel-comments-wrapper">
+                            <div id="jp-carousel-comments-loading">
+                                <span>Loading Comments...</span>
+                            </div>
+                            <div class="jp-carousel-comments"></div>
+                            <div id="jp-carousel-comment-form-container">
+                                <span id="jp-carousel-comment-form-spinner">&nbsp;</span>
+                                <div id="jp-carousel-comment-post-results"></div>
+                                <form id="jp-carousel-comment-form">
+                                    <label for="jp-carousel-comment-form-comment-field" class="screen-reader-text">Write a Comment...</label>
+                                    <textarea name="comment" class="jp-carousel-comment-form-field jp-carousel-comment-form-textarea" id="jp-carousel-comment-form-comment-field" placeholder="Write a Comment..."></textarea>
+                                    <div id="jp-carousel-comment-form-submit-and-info-wrapper">
+                                        <div id="jp-carousel-comment-form-commenting-as">
+                                            <fieldset>
+                                                <label for="jp-carousel-comment-form-email-field">Email (Required)</label>
+                                                <input type="text" name="email" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-email-field" />
+                                            </fieldset>
+                                            <fieldset>
+                                                <label for="jp-carousel-comment-form-author-field">Name (Required)</label>
+                                                <input type="text" name="author" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-author-field" />
+                                            </fieldset>
+                                            <fieldset>
+                                                <label for="jp-carousel-comment-form-url-field">Website</label>
+                                                <input type="text" name="url" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-url-field" />
+                                            </fieldset>
+                                        </div>
+                                        <input type="submit" name="submit" class="jp-carousel-comment-form-button" id="jp-carousel-comment-form-button-submit" value="Post Comment" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="jp-carousel-image-meta">
+                            <div class="jp-carousel-title-and-caption">
+                                <div class="jp-carousel-photo-info">
+                                    <h3 class="jp-carousel-caption" itemprop="caption description"></h3>
+                                </div>
+
+                                <div class="jp-carousel-photo-description"></div>
+                            </div>
+                            <ul class="jp-carousel-image-exif" style="display: none;"></ul>
+                            <a class="jp-carousel-image-download" target="_blank" style="display: none;">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="19" height="18">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.84615 5V19H19.7775V12H21.7677V19C21.7677 20.1 20.8721 21 19.7775 21H5.84615C4.74159 21 3.85596 20.1 3.85596 19V5C3.85596 3.9 4.74159 3 5.84615 3H12.8118V5H5.84615ZM14.802 5V3H21.7677V10H19.7775V6.41L9.99569 16.24L8.59261 14.83L18.3744 5H14.802Z" fill="white"/>
+									</mask>
+									<g mask="url(#mask0)">
+										<rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+								<span class="jp-carousel-download-text"></span>
+							</a>
+                            <div class="jp-carousel-image-map" style="display: none;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LLBZRYMLJJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-LLBZRYMLJJ');
+    </script>
+    
+    <style id='wp-block-library-inline-css'>
+        .has-text-align-justify {
+            text-align: justify;
+        }
+    </style>
+    
+    </script>
+    <script id='divi-custom-script-js-extra'>
+        var DIVI = {
+            "item_count": "%d Item",
+            "items_count": "%d Items"
+        };
+        var et_builder_utils_params = {
+            "condition": {
+                "diviTheme": true,
+                "extraTheme": false
+            },
+            "scrollLocations": ["app", "top"],
+            "builderScrollLocations": {
+                "desktop": "app",
+                "tablet": "app",
+                "phone": "app"
+            },
+            "onloadScrollLocation": "app",
+            "builderType": "fe"
+        };
+        var et_frontend_scripts = {
+            "builderCssContainerPrefix": "#et-boc",
+            "builderCssLayoutPrefix": "#et-boc .et-l"
+        };
+        var et_pb_custom = {
+            "ajaxurl": "https:\/\/womenempowerment.org\/wp-admin\/admin-ajax.php",
+            "images_uri": "https:\/\/womenempowerment.org\/wp-content\/themes\/Divi\/images",
+            "builder_images_uri": "https:\/\/womenempowerment.org\/wp-content\/themes\/Divi\/includes\/builder\/images",
+            "et_frontend_nonce": "8d5b2d78cb",
+            "subscription_failed": "Please, check the fields below to make sure you entered the correct information.",
+            "et_ab_log_nonce": "78880c2463",
+            "fill_message": "Please, fill in the following fields:",
+            "contact_error_message": "Please, fix the following errors:",
+            "invalid": "Invalid email",
+            "captcha": "Captcha",
+            "prev": "Prev",
+            "previous": "Previous",
+            "next": "Next",
+            "wrong_captcha": "You entered the wrong number in captcha.",
+            "wrong_checkbox": "Checkbox",
+            "ignore_waypoints": "no",
+            "is_divi_theme_used": "1",
+            "widget_search_selector": ".widget_search",
+            "ab_tests": [],
+            "is_ab_testing_active": "",
+            "page_id": "101171",
+            "unique_test_id": "",
+            "ab_bounce_rate": "5",
+            "is_cache_plugin_active": "yes",
+            "is_shortcode_tracking": "",
+            "tinymce_uri": ""
+        };
+        var et_pb_box_shadow_elements = [];
+    </script>
+    <script type='text/javascript' src='https://womenempowerment.org/_static/??-eJxlzcEOgjAQBNAfsqxGJXIwXvyRhhZc4m433S3Ev7dGTnCdvJlZxPWJLbKBvMuIrDDiHMGrRlMIqAbTP3MhsTdM7LQQ+fxpJj0s+74kKaJuSNkFnBG0zyh1a8gVNoS86dkrUlR4/my9WvkKH3Q/td35erkdu/YLqCJAdw=='></script>
+    <script src='https://womenempowerment.org/wp-includes/js/dist/vendor/react.min.js?ver=18.2.0' id='react-js'></script>
+    <script src='https://womenempowerment.org/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/divi-editor/index.js?minify=false&#038;ver=76fd339e7710d0ba68b4' id='jetpack-videopress-divi-pkg-js'></script>
+    <script id='jetpack-lazy-images-js-extra'>
+        var jetpackLazyImagesL10n = {
+            "loading_warning": "Images are still loading. Please cancel your print and try again."
+        };
+    </script>
+    <script type='text/javascript' src='https://womenempowerment.org/_static/??-eJytjcEKwkAMRH/INVSl6EG8+B+y7oaa2iRlk7bo17uXgnj2NMzMY2YZQ1JxFIdxmDoSgx59jOm56m1GyVogTq4c3SmtTRji+xWIY4cGmcyB6lIxTE4qQe+GZcay7W2z/PXmK/gZ9wdypa40EyQtCDEzCfRWHbNKxS98btrjoWlPu337AcT3YKs='></script>
+    <script defer src='https://stats.wp.com/e-202337.js' id='jetpack-stats-js'></script>
+    <script id="jetpack-stats-js-after" type="text/javascript">
+        _stq = window._stq || [];
+        _stq.push(["view", {
+            v: 'ext',
+            blog: '199303884',
+            post: '101171',
+            tz: '-7',
+            srv: 'womenempowerment.org',
+            hp: 'atomic',
+            ac: '2',
+            amp: '0',
+            j: '1:12.6-a.3'
+        }]);
+        _stq.push(["clickTrackerInit", "199303884", "101171"]);
+    </script>
+    <script id='jetpack-carousel-js-extra'>
+        var jetpackSwiperLibraryPath = {
+            "url": "https:\/\/womenempowerment.org\/wp-content\/plugins\/jetpack\/_inc\/build\/carousel\/swiper-bundle.min.js"
+        };
+        var jetpackCarouselStrings = {
+            "widths": [370, 700, 1000, 1200, 1400, 2000],
+            "is_logged_in": "",
+            "lang": "en",
+            "ajaxurl": "https:\/\/womenempowerment.org\/wp-admin\/admin-ajax.php",
+            "nonce": "f2256fc931",
+            "display_exif": "1",
+            "display_comments": "1",
+            "single_image_gallery": "1",
+            "single_image_gallery_media_file": "",
+            "background_color": "black",
+            "comment": "Comment",
+            "post_comment": "Post Comment",
+            "write_comment": "Write a Comment...",
+            "loading_comments": "Loading Comments...",
+            "download_original": "View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>",
+            "no_comment_text": "Please be sure to submit some text with your comment.",
+            "no_comment_email": "Please provide an email address to comment.",
+            "no_comment_author": "Please provide your name to comment.",
+            "comment_post_error": "Sorry, but there was an error posting your comment. Please try again later.",
+            "comment_approved": "Your comment was approved.",
+            "comment_unapproved": "Your comment is in moderation.",
+            "camera": "Camera",
+            "aperture": "Aperture",
+            "shutter_speed": "Shutter Speed",
+            "focal_length": "Focal Length",
+            "copyright": "Copyright",
+            "comment_registration": "0",
+            "require_name_email": "1",
+            "login_url": "https:\/\/womenempowerment.org\/wp-login.php?redirect_to=https%3A%2F%2Fwomenempowerment.org%2F",
+            "blog_id": "1",
+            "meta_data": ["camera", "aperture", "shutter_speed", "focal_length", "copyright"]
+        };
+    </script>
+    <script type='text/javascript' src='https://womenempowerment.org/_static/??-eJy1zGEKwjAMBeALuYWJDv+If7yHdG22ZrZdbdKN3d4iDi8wIfDIe/AtsdJTEAwC0eWBAsOIEpV+woOChi6TM6BVmjKj27ZqK2pPoR75sPwYseiR4U4zQRFcNuX7MJigRyU5IZg1KE+6UswoDN8Yy70yprXuSWYy/A/aTx053FW2iq22Kgz7sqh4jYRFTlLgm7827eV8attjc3wDiEqnAg=='></script>
+</body>
+
+</html>
+<!--
+	generated in 1.027 seconds
+	134711 bytes batcached for 300 seconds
+-->
